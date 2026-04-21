@@ -1,7 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Patronaje infantil de prendas deportivas',
+    Description:
+      'El componente formativo desarrolla las competencias técnicas para la interpretación y construcción de patrones de prendas deportivas infantiles en tejido de punto, y para la aplicación de los métodos de escalado industrial que permiten obtener series de tallas con criterios de proporcionalidad anatómica, precisión geométrica y coherencia funcional, orientados al rango etario de 6 a 12 años.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -10,7 +11,7 @@ export default {
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
@@ -31,28 +32,68 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Interpretación de prendas deportivas infantiles',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Camiseta y camisilla básica para niño(a)',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Trazo de camiseta manga ranglán',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Trazo de sudadera de punto',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Trazo de mallas (vestidos de baño)',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Escalado de prendas de vestir',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto y objetivos del escalado',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Principios técnicos del escalado en prendas de vestir',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Tipos de escalado: proporcional, combinado y diferencial',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Escalado bibásico',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Escalado monobásico y por coordenadas',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Separación de tallas y marcación',
+            hash: 't_2_6',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -122,7 +163,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
@@ -135,9 +176,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '--',
-          cargo: 'Experto temático',
-          centro: '--',
+          nombre: ' ',
+          cargo: ' ',
+          centro: 'Centro XYZ - Regional XYZ',
         },
       ],
     },
@@ -145,18 +186,18 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '--',
+          nombre: ' ',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '--',
-          cargo: 'Desarrollador <em>full stack</em>',
+          nombre: ' ',
+          cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y productora audiovisual',
+          nombre: ' ',
+          cargo: 'Animador y productor audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -165,13 +206,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Erika Daniela Manrique Rueda',
-          cargo: 'Validadora y vinculadora de recursos educativos digitales',
+          nombre: ' ',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          nombre: ' ',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
