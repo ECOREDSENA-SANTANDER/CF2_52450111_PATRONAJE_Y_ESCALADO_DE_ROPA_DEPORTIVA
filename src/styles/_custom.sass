@@ -39,7 +39,7 @@
 figcaption 
     font-weight: normal !important
 
-    background-color: #D2C3DD !important
+    background-color: #E1E2DD !important
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -53,21 +53,92 @@ figcaption
   margin-inline: -3.3rem
 .bg-color
   &-1
-    color: $color-primario !important
-
+    background-color: #E5ECF9
+  &-2
+    background-color: #F9FDEC
+  &-3
+    background-color: $color-acento-contenido
+.bg-fondo
+  &-1
+    background-image: url(../assets/curso/temas/t1/6.svg)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
 .br
   &-1
-    border-radius: 10px !important
+    border-radius: 30px !important
 
 .ml-cus
   &-1
     margin-left: 30px !important
-      
+.p-cus
+  &-1
+    padding-top: 5rem !important;
+    padding-bottom: 5.3rem !important;     
+  &-2
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
 .hcard
   &-1
     height: 750px !important
+.w-cus
+  &-1
+    width: 84% !important
+  &-2
+    width: 10% !important
+  &-3
+    width: 15% !important
+  &-4
+    width: 90% !important
+  &-5
+    width: 81.5% !important
+  &-6
+    width: 90% !important
+  &-7
+    width: 35% !important    
+  &-8
+    width: 72% !important 
+  &-9
+    width: 81% !important  
 
+
+
+.titulo-icono
+  width: fit-content
+  position: relative;
+  left: 25px;
+  
+  
+ 
+  &-text
+    position: relative;
+    left: 25px;
+    background-color: $color-secundario
+    border-top-right-radius: 30px
+    border-bottom-right-radius: 30px
+
+    h3
+      color: $white
+
+    @media screen and (max-width: 767px)
+      margin-left: 0px;
       
+  &-img
+    padding: 0px
+    position: absolute
+    top: 0px
+
+    @media screen and (max-width: 767px)
+        display: none
+
+    img
+      position: relative
+      max-width: 60px
+.poly-cus
+  &-1
+    clip-path: polygon(16% 0%, 100% 0%, 100% 100%, 0% 100%);
+  &-2
+    clip-path: polygon(11% 0%, 100% 0%, 100% 100%, 0% 100%);
 
 /**************************************************************/
 /*Media Queries*/  
@@ -84,6 +155,8 @@ figcaption
     margin-bottom: 2em  !important  
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
+  .bloque-texto-g 
+        padding-top: 50px !important;
   
   
   
@@ -98,3 +171,24 @@ figcaption
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
+  .titulo-icono
+    width: fit-content
+    position: relative;
+    left: 0px;
+    &-text
+      left: 0px;
+  .poly-cus
+    &-1
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    &-2
+      clip-path: polygon(11% 0%, 100% 0%, 100% 100%, 0% 100%);
+  .p-cus
+    &-1
+      padding-top: 0.5rem !important;
+      padding-bottom: 0.5rem !important;     
+    &-2
+      padding-right: 0.9rem !important;
+      padding-left: 0.5rem !important;
+  .bloque-texto-g 
+        padding-top: 20px !important;
+    
