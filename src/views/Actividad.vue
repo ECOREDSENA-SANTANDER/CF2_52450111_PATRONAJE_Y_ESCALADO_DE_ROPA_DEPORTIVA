@@ -1,10 +1,10 @@
 <template lang="pug">
-.curso-main-container.pb-3
-        BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
-        .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-        // Para cuestionario usar: ActividadController(:cuestionario="cuestionario") 
-        // Para parrafo usar: ActividadController(:parrafo="parrafo")
-        ActividadController(:cuestionario="cuestionario")
+  .curso-main-container.pb-3
+    BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+      // Para cuestionario usar: ActividadController(:cuestionario="cuestionario") 
+      // Para parrafo usar: ActividadController(:parrafo="parrafo")
+      ActividadController(:cuestionario="cuestionario")
 </template>
 
 <script>
@@ -16,86 +16,14 @@ export default {
     ActividadController,
   },
   data: () => ({
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: require('@/assets/actividad/imagen5.png'),
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
-    },
     cuestionario: {
       tema: 'Nombre del CF',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar el nivel de apropiación de los fundamentos técnicos relacionados con la interpretación de prendas deportivas infantiles, los métodos de escalado y los criterios de marcación de patrones.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
@@ -113,8 +41,8 @@ export default {
             {
               id: 'b',
               texto:
-                'En el tejido de punto las holguras se reducen o eliminan según el porcentaje de elasticidad, aprovechando el comportamiento elástico del material. x',
-              esCorrecta: false,
+                'En el tejido de punto las holguras se reducen o eliminan según el porcentaje de elasticidad, aprovechando el comportamiento elástico del material.',
+              esCorrecta: true,
             },
             {
               id: 'c',
@@ -156,8 +84,8 @@ export default {
             {
               id: 'c',
               texto:
-                'Elimina la costura de hombro convencional y la sisa tradicional, ampliando el rango de movimiento articular. x',
-              esCorrecta: false,
+                'Elimina la costura de hombro convencional y la sisa tradicional, ampliando el rango de movimiento articular.',
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -199,8 +127,8 @@ export default {
             {
               id: 'd',
               texto:
-                'Se trazan con medidas reducidas respecto al contorno corporal, aprovechando la elasticidad del tejido acanalado para garantizar el ajuste. x',
-              esCorrecta: false,
+                'Se trazan con medidas reducidas respecto al contorno corporal, aprovechando la elasticidad del tejido acanalado para garantizar el ajuste.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
@@ -218,8 +146,8 @@ export default {
             {
               id: 'a',
               texto:
-                'La dirección del mayor estiramiento del tejido, que generalmente se orienta en sentido horizontal. x',
-              esCorrecta: false,
+                'La dirección del mayor estiramiento del tejido, que generalmente se orienta en sentido horizontal.',
+              esCorrecta: true,
             },
             {
               id: 'b',
@@ -249,7 +177,7 @@ export default {
           id: 5,
           texto:
             '¿Qué característica técnica diferencia el trazado de mallas y vestidos de baño respecto a otras prendas deportivas infantiles?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -261,8 +189,8 @@ export default {
             {
               id: 'b',
               texto:
-                'Requieren reducciones significativas en las medidas del patrón, dado que el tejido presenta elasticidad bidireccional. x',
-              esCorrecta: false,
+                'Requieren reducciones significativas en las medidas del patrón, dado que el tejido presenta elasticidad bidireccional.',
+              esCorrecta: true,
             },
             {
               id: 'c',
@@ -286,7 +214,7 @@ export default {
           id: 6,
           texto:
             '¿Cuál es el propósito técnico del escalado industrial en el proceso de producción de prendas de vestir?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -304,8 +232,8 @@ export default {
             {
               id: 'c',
               texto:
-                'Generar múltiples tallas a partir de un patrón base, manteniendo proporciones anatómicas y funcionalidad en cada una. x',
-              esCorrecta: false,
+                'Generar múltiples tallas a partir de un patrón base, manteniendo proporciones anatómicas y funcionalidad en cada una.',
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -323,7 +251,7 @@ export default {
           id: 7,
           texto:
             '¿Cuál de los siguientes principios técnicos del escalado garantiza que los ajustes entre tallas no generen desajustes entre sisas, mangas y cinturas?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -333,8 +261,8 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Principio de correspondencia dimensional. x',
-              esCorrecta: false,
+              texto: 'Principio de correspondencia dimensional.',
+              esCorrecta: true,
             },
             {
               id: 'c',
@@ -356,7 +284,7 @@ export default {
           id: 8,
           texto:
             '¿En qué contexto resulta más adecuado aplicar el escalado diferencial en prendas infantiles deportivas?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -374,8 +302,8 @@ export default {
             {
               id: 'c',
               texto:
-                'Cuando la prenda requiere ajustes puntuales en zonas específicas por exigencias ergonómicas o funcionales del movimiento. x',
-              esCorrecta: false,
+                'Cuando la prenda requiere ajustes puntuales en zonas específicas por exigencias ergonómicas o funcionales del movimiento.',
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -393,7 +321,7 @@ export default {
           id: 9,
           texto:
             '¿Qué caracteriza al método de escalado bibásico frente al monobásico?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -405,8 +333,8 @@ export default {
             {
               id: 'b',
               texto:
-                'El bibásico toma dos tallas en los extremos del rango para calcular proporcionalmente los incrementos de las tallas intermedias. x',
-              esCorrecta: false,
+                'El bibásico toma dos tallas en los extremos del rango para calcular proporcionalmente los incrementos de las tallas intermedias.',
+              esCorrecta: true,
             },
             {
               id: 'c',
@@ -430,7 +358,7 @@ export default {
           id: 10,
           texto:
             '¿En qué situaciones resulta especialmente adecuado el método de escalado monobásico?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -448,8 +376,8 @@ export default {
             {
               id: 'c',
               texto:
-                'En rangos de tallas reducidos con incrementos constantes y uniformes en todos los puntos de control. x',
-              esCorrecta: false,
+                'En rangos de tallas reducidos con incrementos constantes y uniformes en todos los puntos de control.',
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -479,8 +407,8 @@ export default {
             {
               id: 'b',
               texto:
-                'Establecen el sistema de referencia geométrica desde el cual cada punto de control recibe valores de desplazamiento independientes en dos direcciones. x',
-              esCorrecta: false,
+                'Establecen el sistema de referencia geométrica desde el cual cada punto de control recibe valores de desplazamiento independientes en dos direcciones.',
+              esCorrecta: true,
             },
             {
               id: 'c',
@@ -522,8 +450,8 @@ export default {
             {
               id: 'c',
               texto:
-                'Porque el sistema de ejes está integrado de forma nativa en el entorno digital, permitiendo ejecutar desplazamientos con mayor velocidad y precisión. x',
-              esCorrecta: false,
+                'Porque el sistema de ejes está integrado de forma nativa en el entorno digital, permitiendo ejecutar desplazamientos con mayor velocidad y precisión.',
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -559,8 +487,8 @@ export default {
             {
               id: 'c',
               texto:
-                'La superposición gráfica de todas las tallas de la serie sobre el patrón base, previa a la separación individual. x',
-              esCorrecta: false,
+                'La superposición gráfica de todas las tallas de la serie sobre el patrón base, previa a la separación individual.',
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -590,8 +518,8 @@ export default {
             {
               id: 'b',
               texto:
-                'Nombre de la pieza, talla, dirección del hilo, cantidad de veces a cortar, piquetes y referencia de la prenda. x',
-              esCorrecta: false,
+                'Nombre de la pieza, talla, dirección del hilo, cantidad de veces a cortar, piquetes y referencia de la prenda.',
+              esCorrecta: true,
             },
             {
               id: 'c',
@@ -633,8 +561,8 @@ export default {
             {
               id: 'c',
               texto:
-                'Porque generan errores en el tendido y el corte, con repercusiones directas sobre la calidad del producto terminado. x',
-              esCorrecta: false,
+                'Porque generan errores en el tendido y el corte, con repercusiones directas sobre la calidad del producto terminado.',
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -658,8 +586,8 @@ export default {
             {
               id: 'a',
               texto:
-                'Aplicar diferentes tipos de línea (continua, discontinua, punteada) para cada talla de la serie. x',
-              esCorrecta: false,
+                'Aplicar diferentes tipos de línea (continua, discontinua, punteada) para cada talla de la serie.',
+              esCorrecta: true,
             },
             {
               id: 'b',
@@ -707,8 +635,8 @@ export default {
             {
               id: 'c',
               texto:
-                'Que las líneas de costura entre piezas complementarias mantengan continuidad en todas las tallas de la serie. x',
-              esCorrecta: false,
+                'Que las líneas de costura entre piezas complementarias mantengan continuidad en todas las tallas de la serie.',
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -744,8 +672,8 @@ export default {
             {
               id: 'c',
               texto:
-                'El tiro, porque integra medidas de profundidad, contornos y curvas específicas que deben ajustarse a las proporciones infantiles. x',
-              esCorrecta: false,
+                'El tiro, porque integra medidas de profundidad, contornos y curvas específicas que deben ajustarse a las proporciones infantiles.',
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -775,8 +703,8 @@ export default {
             {
               id: 'b',
               texto:
-                'En el vestido de dos piezas se elimina la entallada de cintura y el costado queda recto, mientras la malla conserva la curva de cintura. x',
-              esCorrecta: false,
+                'En el vestido de dos piezas se elimina la entallada de cintura y el costado queda recto, mientras la malla conserva la curva de cintura.',
+              esCorrecta: true,
             },
             {
               id: 'c',
@@ -818,8 +746,8 @@ export default {
             {
               id: 'c',
               texto:
-                'Porque el conocimiento técnico del trazado manual, las fichas técnicas y los criterios de industrialización sustentan el uso eficiente de las herramientas digitales. x',
-              esCorrecta: false,
+                'Porque el conocimiento técnico del trazado manual, las fichas técnicas y los criterios de industrialización sustentan el uso eficiente de las herramientas digitales.',
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -834,7 +762,7 @@ export default {
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el patronaje infantil de prendas deportivas.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado: 'Ha superado la actividad.',
       mensaje_final_reprobado:
         'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
