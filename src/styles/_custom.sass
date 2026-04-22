@@ -40,6 +40,28 @@ figcaption
     font-weight: normal !important
 
     background-color: #E1E2DD !important
+.acordion
+  &__activo
+    background-color: #FFF6E5 !important
+  &__accion__btn--b 
+    border: 0px !important
+    background-color: #FFA200 !important
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+  color: $color-sistema-texto !important
+  font-style: normal !important   
+  margin-bottom: 20px !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #FFA200
+    border: 0px !important
+
+.slyder-a__bullets__item 
+  opacity: 0.5 
+  background-color: #FFA200;
+  border-color: #FFA200;
+.slyder-a__bullets__item--active
+    background-color: #FFA200;
+    border-color: #FFA200;
+    opacity: 1
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -58,9 +80,25 @@ figcaption
     background-color: #F9FDEC
   &-3
     background-color: $color-acento-contenido
+  &-4
+    background-color: #B7B0C6
+  &-5
+    background-color: #EDEBF0
+  &-6
+    background-color: $color-primario
 .bg-fondo
   &-1
     background-image: url(../assets/curso/temas/t1/6.svg)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+  &-2
+    background-image: url(../assets/curso/temas/bg/3.svg)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+  &-3
+    background-image: url(../assets/curso/temas/bg/4.svg)
     background-size: cover
     background-repeat: no-repeat
     background-position: center
@@ -101,15 +139,15 @@ figcaption
   &-9
     width: 81% !important  
 
-
+.text-color
+    color: $color-sistema-texto !important
+    font-weight: bold
 
 .titulo-icono
   width: fit-content
   position: relative;
   left: 25px;
-  
-  
- 
+
   &-text
     position: relative;
     left: 25px;
@@ -140,6 +178,32 @@ figcaption
   &-2
     clip-path: polygon(11% 0%, 100% 0%, 100% 100%, 0% 100%);
 
+
+.titulo-icono-2
+  width: fit-content
+  position: relative;
+  left: 12px;
+  background-color: #0048C5
+  border-radius: 30px
+ 
+  &-text
+    margin-right: 10px
+    margin-left: 55px;
+    color: $white
+    @media screen and (max-width: 767px)
+      margin-left: 0px;
+      
+  &-img
+    padding: 0px
+    position: absolute
+    
+
+    @media screen and (max-width: 767px)
+        display: none
+
+    img
+      position: relative
+      max-width: 65px
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
