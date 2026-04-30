@@ -8,20 +8,20 @@
         h1 Interpretación de prendas deportivas infantiles
       
       
-      .row.justify-content-center.mb-5(data-aos='fade-right')
+      .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-8
-          .row.justify-content-center.mb-5
+          .row.justify-content-center.mb-4
             .col-sm-12.col-lg-3.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/1.svg', alt='')
             .col-sm-12.col-lg-9
                 p.mb-0 La interpretación de prendas constituye el proceso mediante el cual se analiza un diseño o modelo para traducirlo en patrones técnicos susceptibles de ser confeccionados industrialmente. En el campo del vestuario deportivo infantil, este proceso exige un dominio simultáneo de las proporciones del cuerpo entre los 6 y los 12 años, el comportamiento de los materiales textiles empleados y las exigencias funcionales propias de la actividad física. A diferencia del patronaje de prendas formales o casuales, las prendas deportivas infantiles demandan criterios adicionales de elasticidad, libertad de movimiento, resistencia al uso y adaptación a cuerpos en proceso activo de crecimiento. 
-          .bg-color-1.p-4
+          .bg-color-1.px-5.py-4
             p.mb-0 El rango etario comprendido entre los 6 y los 12 años representa una etapa de transformación morfológica sostenida: las proporciones entre tronco y extremidades se modifican progresivamente, la masa muscular aumenta y la postura se consolida. Estas variaciones obligan a que los patrones no sean entidades fijas, sino estructuras técnicas calibradas por rangos de talla que respondan a los cambios del cuerpo en cada subetapa del desarrollo. La interpretación correcta de una prenda deportiva infantil parte, entonces, del reconocimiento de estas particularidades como condición previa al trazado. 
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/2.png', alt='')
 
 
-      p.mb-5(data-aos='fade-right') Las prendas que se abordan en este componente abarcan tanto tipologías en tejido plano como en tejido de punto, cada una con sus propias lógicas de construcción. El tejido de punto, predominante en la indumentaria deportiva, introduce variables técnicas específicas relacionadas con el porcentaje de elasticidad del material, la dirección del estiramiento y la reducción de holguras respecto al patronaje convencional. El tejido plano, por su parte, mantiene estructuras de construcción más rígidas que requieren soluciones de pinzado, ensamble y amplitud claramente definidas desde el patrón base. La comprensión de ambos sistemas es indispensable para abordar con rigor técnico la variedad de prendas que componen el vestuario deportivo infantil. 
+      p.mb-0(data-aos='fade-right') Las prendas que se abordan en este componente abarcan tanto tipologías en tejido plano como en tejido de punto, cada una con sus propias lógicas de construcción. El tejido de punto, predominante en la indumentaria deportiva, introduce variables técnicas específicas relacionadas con el porcentaje de elasticidad del material, la dirección del estiramiento y la reducción de holguras respecto al patronaje convencional. El tejido plano, por su parte, mantiene estructuras de construcción más rígidas que requieren soluciones de pinzado, ensamble y amplitud claramente definidas desde el patrón base. La comprensión de ambos sistemas es indispensable para abordar con rigor técnico la variedad de prendas que componen el vestuario deportivo infantil. 
 
 
 
@@ -122,7 +122,7 @@
               td Confirmar que delantero y trasero coincidan en costados, dejando márgenes de costura (1 – 1.5 cm).
 
       
-      .row.justify-content-center.mb-5(data-aos='fade-right')
+      .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-6.mb-cus
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 3. 
@@ -148,14 +148,14 @@
                 h5 Figura 4. 
                 span Trazo de la camiseta 
               figure.mb-0.bg-color-1.p-5.mb-1.br-1
-                img(src='@/assets/curso/temas/t1/11.svg', alt='Molde técnico del cuerpo básico infantil dividido en delantero y trasero. Incluye líneas de referencia para tórax, busto, hombros, cintura y bajos, con curvas que definen escotes y sisas.')
+                img.w-cus-10.m-auto(src='@/assets/curso/temas/t1/11.svg', alt='Molde técnico del cuerpo básico infantil dividido en delantero y trasero. Incluye líneas de referencia para tórax, busto, hombros, cintura y bajos, con curvas que definen escotes y sisas.')
               figcaption.mb-0 Fuente: Donnamo (2018).
             .col-sm-12.col-lg-6
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Figura 5. 
                 span Diseño de camiseta
-              figure.mb-0.br-1
-                img(src='@/assets/curso/temas/t1/12.png', alt='Persona infantil vistiendo una camiseta.')
+              figure.mb-0.container-full
+                img.img-full.br-1(src='@/assets/curso/temas/t1/12.png', alt='Persona infantil vistiendo una camiseta.')
 
 
 
@@ -267,7 +267,7 @@
               td Revisión final.
               td Confirmar que las curvas de copa delantera y trasera tengan diferencia (delantera más pronunciada, trasera más recta).
 
-      .row.justify-content-center.mb-5(data-aos='fade-right')
+      .row.justify-content-center.mb-0(data-aos='fade-right')
         .col-sm-12.col-lg-8.mb-cus
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 7. 
@@ -399,13 +399,13 @@
             img.w-cus-4.m-auto(src='@/assets/curso/temas/t1/23.svg', alt='Diagrama técnico de patronaje correspondiente a la parte trasera de una prenda. Se presentan líneas estructurales como hombros, busto y cintura, junto con el centro de la espalda. Desde la zona superior se proyectan varias líneas diagonales que indican variaciones del patrón según la inclinación. Se incluyen puntos de referencia y segmentos que orientan el ajuste y la construcción de la pieza.')
           figcaption.mb-0 Fuente: Donnamo (2018).
 
-        .col-sm-12.col-lg-3.d-none.d-lg-block
-          img.mt-5(src='@/assets/curso/temas/t1/22.png', alt='')
+        .col-sm-12.col-lg-3.d-none.d-lg-block.container-full
+          img.img-full.br-1(src='@/assets/curso/temas/t1/22.png', alt='')
 
 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         p.mb-0  #[b Tabla 5.] Proceso del trazo posterior de la camiseta manga ranglán
-      .tabla-a.color-acento-contenido.mb-5(data-aos='fade-right')
+      .tabla-a.color-acento-contenido.mb-0(data-aos='fade-right')
         table
           thead
             tr
@@ -563,14 +563,14 @@
         .col-sm-12.col-lg-6.mb-cus
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 14. 
-            span Diseño de sudadera de punto
+            span Despiece del trazo del corpiño
           figure.bg-color-1.p-3.mb-1.br-1
             img(src='@/assets/curso/temas/t1/27.svg', alt='Patrón de prenda dividido en delantera y trasera. Se señalan líneas de tórax, busto y cintura, junto con centros y una cremallera en la parte delantera.')
           figcaption.mb-0 Fuente: Donnamo (2018).
         .col-sm-12.col-lg-6
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 15. 
-            span Trazo del corpiño
+            span Trazo de la manga
           figure.bg-color-1.p-4.mb-1.br-1
             img.w-cus-6.m-auto(src='@/assets/curso/temas/t1/28.svg', alt='Diagrama técnico con copas delantera y traseras unidas a la pieza principal. Se indican líneas de codo, centros y puntos de unión para el trazado del patrón.')
           figcaption.mb-0 Fuente: Donnamo (2018).
@@ -641,8 +641,8 @@
           figure.bg-color-1.p-2.mb-1.br-1
             img(src='@/assets/curso/temas/t1/30.svg', alt='Patrón de capucha con medidas y puntos de referencia, junto a pieza tipo bolsillo canguro con indicación de cremallera y área de ubicación.')
           figcaption.mb-0 Fuente: Donnamo (2018).
-        .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/29.png', alt='')
+        .col-sm-12.col-lg-4.d-none.d-lg-block.container-full
+          img.img-full.br-1(src='@/assets/curso/temas/t1/29.png', alt='')
 
 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -684,7 +684,7 @@
 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         p.mb-0  #[b Tabla 9.] Proceso del trazo de bolsillo canguro
-      .tabla-a.color-acento-contenido.mb-5(data-aos='fade-right')
+      .tabla-a.color-acento-contenido.mb-0(data-aos='fade-right')
         table
           thead
             tr

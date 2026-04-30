@@ -7,7 +7,7 @@
           span 2
         h1 Escalado de prendas de vestir
       
-      .row.justify-content-center.mb-5(data-aos='fade-right')
+      .row.justify-content-center.mb-0(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/1.png', alt='')
         .col-sm-12.col-lg-7
@@ -64,11 +64,11 @@
                 p.mb-0 Adaptar las prendas a la diversidad corporal presente en la población objetivo, aplicando estándares antropométricos válidos y reconocidos internacionalmente. 
 
 
-        .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/3.png', alt='')
+        .col-sm-12.col-lg-4.d-none.d-lg-block.container-full
+          img.img-full(src='@/assets/curso/temas/t2/3.png', alt='')
 
 
-      p.mb-5(data-aos='fade-right') De este modo, el escalado cumple una función esencial dentro del sistema de producción de vestuario, posibilitando la estandarización técnica necesaria para responder adecuadamente a las exigencias y demandas comerciales de la industria textil y de la confección. 
+      p.mb-0(data-aos='fade-right') De este modo, el escalado cumple una función esencial dentro del sistema de producción de vestuario, posibilitando la estandarización técnica necesaria para responder adecuadamente a las exigencias y demandas comerciales de la industria textil y de la confección. 
 
       
 
@@ -111,7 +111,7 @@
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/6.png', alt='')
 
-      p.mb-5(data-aos='fade-right') Estos principios técnicos constituyen lineamientos esenciales que permiten llevar a cabo el proceso de escalado con precisión y calidad, respondiendo a criterios tanto anatómicos como funcionales. Su aplicación efectiva garantiza que las prendas escaladas cumplan con las expectativas técnicas y comerciales propias de la industria textil y de la confección. 
+      p.mb-0(data-aos='fade-right') Estos principios técnicos constituyen lineamientos esenciales que permiten llevar a cabo el proceso de escalado con precisión y calidad, respondiendo a criterios tanto anatómicos como funcionales. Su aplicación efectiva garantiza que las prendas escaladas cumplan con las expectativas técnicas y comerciales propias de la industria textil y de la confección. 
       
       //-----------------------------------------------------------------
       Separador
@@ -149,7 +149,7 @@
 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         p.mb-0  #[b Tabla 12.] Comparativa de tipos de escalado
-      .tabla-a.color-acento-contenido.mb-5(data-aos='fade-right')
+      .tabla-a.color-acento-contenido.mb-0(data-aos='fade-right')
         table
           thead
             tr
@@ -250,19 +250,19 @@
                   td 103 cm
                   td 104 cm
 
-      .row.justify-content-center.mb-5(data-aos='fade-right')
+      .row.justify-content-center.mb-0(data-aos='fade-right')
         .col-sm-12.col-lg-4
           .bg-fondo-1.p-5.mb-cus
             img.w-25.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t2/12.svg', alt='')
             p.mb-0 #[b Nota:] los valores presentados en esta tabla son orientativos. Las medidas definitivas deben corresponder al cuadro de tallas estandarizado del sistema de tallaje adoptado.  
        
-        .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/13.svg', alt='')
+        .col-sm-12.col-lg-4.d-none.d-lg-block.container-full
+          img.img-full(src='@/assets/curso/temas/t2/13.svg', alt='')
 
 
 
         .col-sm-12.col-lg-4
-          img.w-cus-3.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t2/14.svg')
+          img.w-cus-3.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t2/14.svg')
           p.mb-0 La aplicación correcta del método bibásico exige el dominio del cuadro de tallas vigente, la identificación precisa de todos los puntos de escalado en cada pieza del patrón y el manejo riguroso de las herramientas de trazado. El resultado es una serie de tallas en la que las proporciones y el ajuste de la prenda se mantienen coherentes desde la talla menor hasta la mayor, condición indispensable para garantizar la calidad del producto en la producción industrial. 
 
 
@@ -298,7 +298,7 @@
         .col-sm-12.col-lg-10
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             p.mb-0  #[b Tabla 14.] Ejemplo de incrementos por escalado monobásico en camiseta deportiva infantil 
-          .tabla-a.color-acento-contenido.mb-5(data-aos='fade-right')
+          .tabla-a.color-acento-contenido.mb-0(data-aos='fade-right')
             table
               thead
                 tr
@@ -417,7 +417,7 @@
 
 
 
-      .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
+      .row.justify-content-center.mb-0.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/19.png', alt='')
         .col-sm-12.col-lg-8
@@ -494,7 +494,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             p.mb-0  #[b Tabla 17.]  Marcación de patrones
           .tabla-a.color-acento-contenido.mb-0(data-aos='fade-right')
-            table
+            table.tabla-a-height
               thead
                 tr
                   th #[b Información]
@@ -524,8 +524,8 @@
                 tr
                   td.fw-bold Referencia de la prenda.
                   td Código o nombre del diseño al que pertenece.
-        .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/21.png', alt='')
+        .col-sm-12.col-lg-4.d-none.d-lg-block.container-full
+          img.img-full.br-1(src='@/assets/curso/temas/t2/21.png', alt='')
 
 
       .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
