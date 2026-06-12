@@ -368,7 +368,7 @@
                 .tarjeta.bg-white.p-4
                   TarjetaAudio.color-acento-botones.mb-0.p-4(
                   texto="Escalado por coordenadas."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/temas/t2/podcast.mp3')"
               )
 
       p.mb-5(data-aos='fade-right') La tabla siguiente ilustra la lógica de desplazamiento por coordenadas para los puntos principales de un patrón de pantalón deportivo infantil: 
@@ -538,13 +538,13 @@
 
       figure.mb-3(data-aos='fade-right')
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/MxtkyvtR0IE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video.   
       p.mb-5(data-aos='fade-right') Introducción y contextualización – escalado
 
       figure.mb-3(data-aos='fade-right')
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/EdTHLStSdYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. 
       p.mb-0(data-aos='fade-right')  Cortes, manga, cuello - escalado
 
