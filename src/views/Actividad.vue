@@ -382,7 +382,7 @@ export default {
             {
               id: 'd',
               texto:
-                'Exclusivamente en procesos digitales donde el software calcula automáticamente los desplazamientos por coordenadas.',
+                'Exclusivamente en procesos digitales donde el <i>software</i> calcula automáticamente los desplazamientos por coordenadas.',
               esCorrecta: false,
             },
           ],
@@ -431,7 +431,7 @@ export default {
         {
           id: 12,
           texto:
-            '¿Por qué el escalado por coordenadas es el método preferido para el trabajo con software de patronaje digital?',
+            '¿Por qué el escalado por coordenadas es el método preferido para el trabajo con <i>software</i> de patronaje digital?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -444,7 +444,7 @@ export default {
             {
               id: 'b',
               texto:
-                'Porque trabaja exclusivamente con incrementos proporcionales que el software calcula a partir del cuadro de tallas importado.',
+                'Porque trabaja exclusivamente con incrementos proporcionales que el <i>software</i> calcula a partir del cuadro de tallas importado.',
               esCorrecta: false,
             },
             {
@@ -727,14 +727,14 @@ export default {
         {
           id: 20,
           texto:
-            '¿Por qué el dominio del patronaje manual es condición indispensable para operar eficientemente un software de patronaje digital?',
+            '¿Por qué el dominio del patronaje manual es condición indispensable para operar eficientemente un <i>software</i> de patronaje digital?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Porque el software solo funciona con patrones previamente trazados en papel que deben digitalizarse antes de su edición.',
+                'Porque el <i>software</i> solo funciona con patrones previamente trazados en papel que deben digitalizarse antes de su edición.',
               esCorrecta: false,
             },
             {
@@ -762,9 +762,10 @@ export default {
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el patronaje infantil de prendas deportivas.',
         },
       ],
-      mensaje_final_aprobado: 'Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre patronaje infantil de prendas deportivas.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Se recomienda volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

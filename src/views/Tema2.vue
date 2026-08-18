@@ -421,7 +421,7 @@
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/19.png', alt='')
         .col-sm-12.col-lg-8
-            p.mb-0 La precisión que caracteriza al escalado por coordenadas lo convierte en el método de referencia para el trabajo con software de patronaje digital, donde el sistema de ejes está integrado de forma nativa en el entorno de trabajo y los desplazamientos se ejecutan de manera automatizada a partir de los valores ingresados por el patronista. En el contexto del vestuario deportivo infantil, esta automatización cobra especial relevancia al trabajar con series de tallas amplias, donde la acumulación de puntos de control y la variabilidad morfológica entre subetapas del desarrollo exigen un nivel de exactitud que el método manual difícilmente sostiene con la misma eficiencia. 
+            p.mb-0 La precisión que caracteriza al escalado por coordenadas lo convierte en el método de referencia para el trabajo con #[i software] de patronaje digital, donde el sistema de ejes está integrado de forma nativa en el entorno de trabajo y los desplazamientos se ejecutan de manera automatizada a partir de los valores ingresados por el patronista. En el contexto del vestuario deportivo infantil, esta automatización cobra especial relevancia al trabajar con series de tallas amplias, donde la acumulación de puntos de control y la variabilidad morfológica entre subetapas del desarrollo exigen un nivel de exactitud que el método manual difícilmente sostiene con la misma eficiencia. 
 
 
       
@@ -478,7 +478,7 @@
                   td Círculo, cuadrado, triángulo.
                   td Identificación de puntos clave por talla.
 
-      p.mb-5(data-aos='fade-right') En el entorno digital, el software de patronaje permite asignar automáticamente un color diferente a cada talla del nido, facilitando la separación visual sin necesidad de convenciones adicionales. 
+      p.mb-5(data-aos='fade-right') En el entorno digital, el #[i software] de patronaje permite asignar automáticamente un color diferente a cada talla del nido, facilitando la separación visual sin necesidad de convenciones adicionales. 
 
 
       .row.align-items-center.mb-5.titulo-icono-2(data-aos='fade-right')

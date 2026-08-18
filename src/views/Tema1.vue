@@ -53,21 +53,14 @@
             img.w-25.mb-4(src='@/assets/curso/temas/t1/5.svg', alt='')
             p.mb-0 #[b Nota para tejido plano:] cuando estas prendas se construyen en tejido plano, el trazado incorpora holguras funcionales en sisa, costado y largo, y puede requerir el uso de pinzas o soluciones de amplitud para garantizar la libertad de movimiento. Las fórmulas de proporción se ajustan según las medidas del cuadro de tallas correspondiente al rango etario trabajado. 
        
-        .col-sm-12.col-lg-4.mb-cus
+        
+
+        .col-sm-12.col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 1. 
-            span Camisilla para niño  
-          figure.mb-0.bg-color-1.p-5.br-1
-            img.py-5(src='@/assets/curso/temas/t1/7.png', alt='Persona infantil en vista frontal y posterior. Lleva una prenda superior sin mangas de ajuste recto y una prenda inferior corta. Los brazos se mantienen relajados a los lados del cuerpo.')
-           
-
-
-        .col-sm-12.col-lg-4
-          .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 2. 
             span Trazo de la camisilla y camiseta
           figure.mb-0.bg-color-1.px-4.py-2.mb-1.br-1
-            img.m-auto.w-cus-1(src='@/assets/curso/temas/t1/8.svg', alt='Molde técnico del cuerpo básico infantil, dividido en delantero y trasero. Presenta líneas horizontales de referencia para busto, tórax, cintura y bajos, además de curvas que definen escotes, hombros y sisas. Incluye medidas numéricas y puntos de construcción que guían la proporción y el ajuste del patrón.')
+            img.m-auto.w-cus-1(src='@/assets/curso/temas/t1/8.png', alt='Molde técnico del cuerpo básico infantil, dividido en delantero y trasero. Presenta líneas horizontales de referencia para busto, tórax, cintura y bajos, además de curvas que definen escotes, hombros y sisas. Incluye medidas numéricas y puntos de construcción que guían la proporción y el ajuste del patrón.')
           figcaption.mb-0 Fuente: Donnamo (2018).
 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -125,7 +118,7 @@
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-6.mb-cus
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 3. 
+            h5 Figura 2. 
             span Despiece de la camisilla 
           figure.mb-0.bg-color-1.p-5.mb-1.br-1
             img(src='@/assets/curso/temas/t1/9.svg', alt='Molde técnico infantil compuesto por delantero y trasero sin mangas. Cada pieza presenta líneas de referencia para tórax, busto y cintura, que permiten ubicar proporciones y ajustes.')
@@ -134,7 +127,7 @@
           img(src='@/assets/curso/temas/t1/10.png', alt='')
 
 
-      .bg-full-width.mb-5(data-aos='fade-right')
+      .bg-full-width.mb-3(data-aos='fade-right')
         .p-full-width
           .row.align-items-center.mb-5.titulo-icono
             .col-auto.titulo-icono-img
@@ -142,18 +135,15 @@
             .col
               .mb-0.titulo-icono-text.px-0.py-2.poly-cus-1
                 h3.mb-0.p-cus-2 Trazo de la camiseta  
-          .row.justify-content-center.mb-5
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Figura 3. 
+            span Trazo de la camiseta 
+          .row.justify-content-center.mb-0
             .col-sm-12.col-lg-6.mb-cus
-              .titulo-sexto.color-acento-contenido.mb-3
-                h5 Figura 4. 
-                span Trazo de la camiseta 
               figure.mb-0.bg-color-1.p-5.mb-1.br-1
                 img.w-cus-10.m-auto(src='@/assets/curso/temas/t1/11.svg', alt='Molde técnico del cuerpo básico infantil dividido en delantero y trasero. Incluye líneas de referencia para tórax, busto, hombros, cintura y bajos, con curvas que definen escotes y sisas.')
               figcaption.mb-0 Fuente: Donnamo (2018).
             .col-sm-12.col-lg-6
-              .titulo-sexto.color-acento-contenido.mb-3
-                h5 Figura 5. 
-                span Diseño de camiseta
               figure.mb-0.container-full
                 img.img-full.br-1(src='@/assets/curso/temas/t1/12.png', alt='Persona infantil vistiendo una camiseta.')
 
@@ -218,7 +208,7 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 6. 
+            h5 Figura 4. 
             span Trazo del patrón de la manga
           figure.mb-0.bg-color-1.p-5.mb-1.br-1
             img(src='@/assets/curso/temas/t1/13.svg', alt='Molde técnico de manga infantil con división en delantero y trasero. Contiene líneas que marcan hombro y centro, además de curvas diferenciadas para cada copa.')
@@ -270,7 +260,7 @@
       .row.justify-content-center.mb-0(data-aos='fade-right')
         .col-sm-12.col-lg-8.mb-cus
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 7. 
+            h5 Figura 5. 
             span Despiece de la camiseta
           figure.bg-color-1.p-5.mb-1.br-1
             img(src='@/assets/curso/temas/t1/14.svg', alt='Molde técnico infantil compuesto por delantero y trasero sin mangas. Cada pieza está organizada con líneas de referencia horizontales para hombros, tórax, cintura y bajos, además de ejes verticales que marcan el centro de cada parte.')
@@ -278,7 +268,7 @@
 
         .col-sm-12.col-lg-4
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 8. 
+            h5 Figura 6. 
             span Despiece de la manga de la camiseta
           figure.bg-color-2.p-5.mb-1.br-1
             img.p-cus-1(src='@/assets/curso/temas/t1/15.svg', alt='Molde técnico de manga infantil dividido en delantero y trasero. Presenta una copa redondeada en la parte superior, con línea central vertical de referencia en el centro hombro.')
@@ -311,17 +301,13 @@
 
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
-        .col-sm-12.col-lg-5.mb-cus
-          .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 9. 
-            span Diseño de camiseta manga ranglán
-          figure.bg-color-1.p-5.mb-1.br-1
-            img.p-3(src='@/assets/curso/temas/t1/20.png', alt='Prenda superior de manga corta con cuello redondo. Presenta cuerpo central liso y mangas unidas en una sola pieza desde el cuello.')
-          figcaption.mb-0 Fuente: Donnamo (2018).
+        .col-sm-12.col-lg-5.mb-cus.bg-color-1.p-3.br-1.align-items-center
+            img.mt-5(src='@/assets/curso/temas/t1/20.png', alt='Prenda superior de manga corta con cuello redondo. Presenta cuerpo central liso y mangas unidas en una sola pieza desde el cuello.')
+         
 
         .col-sm-12.col-lg-4
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 10. 
+            h5 Figura 7. 
             span Trazo del delantero de la camiseta manga ranglán
           figure.bg-color-1.p-3.mb-1.br-1
             img.w-cus-4(src='@/assets/curso/temas/t1/21.svg', alt='Diagrama técnico de patronaje de una prenda en vista plana. Se identifican líneas estructurales del cuerpo como busto, tórax y cintura, junto con el centro delantero. Desde la zona superior se proyectan varias líneas diagonales que indican la modificación del patrón según la inclinación. Se señalan puntos de referencia y segmentos que guían el trazado y ajuste de la pieza.')
@@ -388,12 +374,21 @@
               td.text-center.fw-bold 8
               td.fw-bold Ajustar la bocamanga y terminar las líneas.
               td Según el patrón base.
+              td Se ajusta el ancho de la bocamanga según las medidas del patrón. Con el curvígrafo se suavizan y terminan todas las líneas externas e internas de la manga y del corpiño, asegurando que las curvas sean fluidas y sin quiebres. 
+              td Bocamanga y líneas externas e internas. 
+            
+            tr
+              td.text-center.fw-bold 9
+              td.fw-bold Separar la manga del corpiño. 
+              td No aplica.  
+              td Una vez terminado el trazo, se separa con precisión la pieza de la manga de la pieza del corpiño. Se verifica que los bordes de costura estén bien definidos y que las curvas coincidan correctamente en los puntos de ensamble. 
+              td Separación manga y corpiño. 
      
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-9
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 11. 
+            h5 Figura 8. 
             span Trazo del posterior de la camiseta manga ranglán 
           figure.bg-color-1.p-3.mb-1.br-1
             img.w-cus-4.m-auto(src='@/assets/curso/temas/t1/23.svg', alt='Diagrama técnico de patronaje correspondiente a la parte trasera de una prenda. Se presentan líneas estructurales como hombros, busto y cintura, junto con el centro de la espalda. Desde la zona superior se proyectan varias líneas diagonales que indican variaciones del patrón según la inclinación. Se incluyen puntos de referencia y segmentos que orientan el ajuste y la construcción de la pieza.')
@@ -494,14 +489,14 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-5.mb-cus
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 12. 
+            h5 Figura 9. 
             span Diseño de sudadera de punto
           figure.bg-color-1.p-3.mb-1.br-1
             img.w-cus-5.m-auto(src='@/assets/curso/temas/t1/25.svg', alt='Ilustración de una persona de pie en posición frontal. Lleva una prenda superior con capucha, cierre frontal y bolsillos a los lados, junto con una falda de longitud media. Las manos se encuentran a los lados del cuerpo. Calza botas que cubren parte de las piernas. La figura está centrada dentro de un marco rectangular.')
           figcaption.mb-0 Fuente: Donnamo (2018).
         .col-sm-12.col-lg-7
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 13. 
+            h5 Figura 10. 
             span Trazo del corpiño
           figure.bg-color-1.p-5.mb-1.br-1
             img(src='@/assets/curso/temas/t1/26.svg', alt='Diagrama técnico de patronaje que integra la parte delantera y trasera de una prenda. Se identifican líneas estructurales como tórax, busto, hombros y cintura, junto con los centros delantero y trasero. En la zona inferior se indican elementos como la pretina y el área de bajos. También se señala la ubicación de una cremallera inclinada en la parte delantera. Se incluyen puntos de referencia y trazos que organizan la construcción y ajuste del patrón.')
@@ -562,14 +557,14 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-6.mb-cus
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 14. 
+            h5 Figura 11. 
             span Despiece del trazo del corpiño
           figure.bg-color-1.p-3.mb-1.br-1
             img(src='@/assets/curso/temas/t1/27.svg', alt='Patrón de prenda dividido en delantera y trasera. Se señalan líneas de tórax, busto y cintura, junto con centros y una cremallera en la parte delantera.')
           figcaption.mb-0 Fuente: Donnamo (2018).
         .col-sm-12.col-lg-6
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 15. 
+            h5 Figura 12. 
             span Trazo de la manga
           figure.bg-color-1.p-4.mb-1.br-1
             img.w-cus-6.m-auto(src='@/assets/curso/temas/t1/28.svg', alt='Diagrama técnico con copas delantera y traseras unidas a la pieza principal. Se indican líneas de codo, centros y puntos de unión para el trazado del patrón.')
@@ -636,7 +631,7 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 16. 
+            h5 Figura 13. 
             span  Trazo de la capucha y el bolsillo de la sudadera 
           figure.bg-color-1.p-2.mb-1.br-1
             img(src='@/assets/curso/temas/t1/30.svg', alt='Patrón de capucha con medidas y puntos de referencia, junto a pieza tipo bolsillo canguro con indicación de cremallera y área de ubicación.')
@@ -728,14 +723,10 @@
         
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-6.mb-cus
-          .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 17. 
-            span  Vestido de baño
-          figure
             img(src='@/assets/curso/temas/t1/32.png', alt='Persona infantil de pie en un entorno abierto. Lleva una prenda de una sola pieza sin mangas y gafas. Mantiene el cuerpo erguido con los brazos a los lados.')
         .col-sm-12.col-lg-6
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 18. 
+            h5 Figura 14. 
             span  Trazo de mallas (vestidos de baño)
           figure.bg-color-1.p-2.mb-1.br-1
             img.w-cus-8.m-auto(src='@/assets/curso/temas/t1/33.svg', alt='Patrón completo de prenda con delantera y trasera. Se indican líneas de busto, hombros, cintura, cadera y tiro, junto con costados y centros para el ajuste del diseño.')
@@ -814,7 +805,7 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-6
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 19. 
+            h5 Figura 15. 
             span  Trazo de vestido a dos piezas
           figure.bg-color-1.p-2.mb-1.br-1
             img.w-cus-9.m-auto(src='@/assets/curso/temas/t1/35.svg', alt='Patrón de traje de dos piezas con delantera y trasera. Se señalan líneas de busto, hombros, cadera y tiro, junto con centros y ajustes para eliminar cintura.')
