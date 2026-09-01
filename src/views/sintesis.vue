@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
+          img(src="@/assets/curso/sintesis.svg", alt="Esquema jerárquico sobre patronaje infantil de prendas deportivas. Se organiza en dos ramas principales: interpretación de prendas, que incluye tipos de prendas y sus trazos base, y escalado, que aborda conceptos, principios técnicos, tipos de escalado y procesos de ajuste de tallas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
