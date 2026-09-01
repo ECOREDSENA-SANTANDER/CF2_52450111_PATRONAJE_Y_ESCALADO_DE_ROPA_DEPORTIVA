@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="396" height="414" viewBox="0 0 396 414">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_454720" data-name="Rectángulo 454720" width="396" height="414" transform="translate(185.711 1704)" fill="#bee645"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1177306" data-name="Grupo 1177306" transform="translate(-185.711 -1704)">
+    <rect id="Rectángulo_454629" data-name="Rectángulo 454629" width="396" height="414" transform="translate(185.711 1704)" fill="#bee645"/>
+    <g id="Grupo_1177129" data-name="Grupo 1177129" transform="translate(214.094 2014.431) rotate(90)">
+      <path id="Trazado_991699" data-name="Trazado 991699" d="M7.857,0V7.857H0V11.4H7.857v7.857H11.4V11.4h7.857V7.857H11.4V0Z" transform="translate(0)" fill="#0048c5"/>
+      <path id="Trazado_991700" data-name="Trazado 991700" d="M7.857,0V7.857H0V11.4H7.857v7.857H11.4V11.4h7.857V7.857H11.4V0Z" transform="translate(36.154)" fill="#0048c5"/>
+      <path id="Trazado_991701" data-name="Trazado 991701" d="M7.857,0V7.857H0V11.4H7.857v7.857H11.4V11.4h7.857V7.857H11.4V0Z" transform="translate(72.308)" fill="#0048c5"/>
+    </g>
+    <g id="Enmascarar_grupo_1119133" data-name="Enmascarar grupo 1119133" clip-path="url(#clip-path)">
+      <g id="Elipse_13632" data-name="Elipse 13632" transform="translate(489.711 1609.753)" fill="none" stroke="#4c3a71" stroke-width="28">
+        <circle cx="92" cy="92" r="92" stroke="none"/>
+        <circle cx="92" cy="92" r="78" fill="none"/>
+      </g>
+      <g id="Grupo_1177130" data-name="Grupo 1177130" transform="translate(574.377 1717.727) rotate(90)">
+        <path id="Trazado_991694" data-name="Trazado 991694" d="M16.917,0,0,16.917V33.833L16.917,16.917,33.833,33.833V16.917Z" transform="translate(0)" fill="#ffa200"/>
+        <path id="Trazado_991695" data-name="Trazado 991695" d="M0,16.917V33.833L16.917,16.916,33.833,33.833V16.917L16.917,0Z" transform="translate(0 33.833)" fill="#ffa200"/>
+      </g>
+      <path id="Unión_50" data-name="Unión 50" d="M57.842,67.01l9.168-7.825v3.352L61.77,67.01Zm-10.468,0L67.01,50.251V53.6L51.3,67.01Zm-10.468,0,30.1-25.693V44.67L40.834,67.01Zm-10.468,0L67.01,32.383v3.352L30.367,67.01Zm-10.744,0,51.315-43.8V26.8L19.9,67.01Zm-10.467,0L67.01,14.28v3.352L9.156,67.01ZM0,62.537,67.01,5.346V8.7L0,65.89ZM0,53.6,62.806,0h3.928L0,56.956Zm0-8.934L52.338,0h3.928L0,48.022Zm0-8.934L41.87,0H45.8L0,39.088ZM0,26.8,31.4,0H35.33L0,30.154Zm0-8.934L20.935,0h3.928L0,21.22ZM0,8.934,10.468,0H14.4L0,12.286ZM0,0H3.928L0,3.352Z" transform="translate(498 2084.495)" fill="#4c3a71"/>
+    </g>
+  </g>
+</svg>
