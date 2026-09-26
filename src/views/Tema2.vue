@@ -238,9 +238,9 @@
                 tr
                   td.fw-bold Altura de tiro
                   td 26 cm
-                  td 26,5 cm
+                  td 26.5 cm
                   td 27 cm
-                  td 27,5 cm
+                  td 27.5 cm
                   td 28 cm
                 tr
                   td.fw-bold Largo de pierna
@@ -332,18 +332,18 @@
                   td 74 cm
                 tr
                   td.fw-bold Ancho de espalda
-                  td 0,5 cm
+                  td 0.5 cm
                   td 27 cm
-                  td 27,5 cm
+                  td 27.5 cm
                   td 28 cm
-                  td 28,5 cm
+                  td 28.5 cm
                 tr
                   td.fw-bold Largo de talle
-                  td 0,5 cm
+                  td 0.5 cm
                   td 27 cm
-                  td 27,5 cm
+                  td 27.5 cm
                   td 28 cm
-                  td 28,5 cm
+                  td 28.5 cm
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8.bg-color-3.p-4
@@ -358,7 +358,7 @@
           img(src='@/assets/curso/temas/bg/5.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Escalado por coordenadas 
-
+      p.mb-5 ¡Es momento de descubrir nuevas formas de transformar los patrones! Explore el pódcast #[b “Escalado por coordenadas”] y conozca cómo esta herramienta permite adaptar los patrones de manera precisa, conservando sus proporciones y características. 
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-10
           img.mb-0.d-none.d-lg-block(src='@/assets/curso/temas/t2/17.png')
@@ -538,15 +538,15 @@
 
       figure.mb-3(data-aos='fade-right')
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/MxtkyvtR0IE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video.   
-      p.mb-5(data-aos='fade-right') Introducción y contextualización – escalado
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/MxtkyvtR0IE?si=VhmSQGYfRmFVSJ_R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Introducción y contextualización - escalado
+  
 
       figure.mb-3(data-aos='fade-right')
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/EdTHLStSdYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. 
-      p.mb-0(data-aos='fade-right')  Cortes, manga, cuello - escalado
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/EdTHLStSdYk?si=KZe68wL3ZyQqWY_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Cortes, manga, cuello - escalado
+
 
 
 

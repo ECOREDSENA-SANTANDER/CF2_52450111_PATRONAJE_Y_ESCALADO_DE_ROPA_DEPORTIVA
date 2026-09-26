@@ -224,7 +224,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Barnfield, J., y Richards, A. (2013). Manual de patronaje de moda: diseño, adaptación y personalización de los patrones de costura. Promopress. ISBN 978-84-92810-82-6.',
+        'Barnfield, J., y Richards, A. (2013). Manual de patronaje de moda: diseño, adaptación y personalización de los patrones de costura. Promopress.',
     },
     {
       referencia:
@@ -232,11 +232,11 @@ export default {
     },
     {
       referencia:
-        'Drake, R. L., Vogl, A. W., y Mitchell, A. M. W. (2019). Gray. Anatomía para estudiantes (4.ª ed.). Elsevier. ISBN 978-84-9113-608-8.',
+        'Drake, R. L., Vogl, A. W., y Mitchell, A. M. W. (2019). Gray. Anatomía para estudiantes (4.ª ed.). Elsevier. ',
     },
     {
       referencia:
-        'Esparza Ros, F. (Ed.). (1993). Manual de cineantropometría. Grupo Español de Cineantropometría; Federación Española de Medicina del Deporte (FEMEDE). ISBN 978-84-88100-08-5.',
+        'Esparza Ros, F. (Ed.). (1993). Manual de cineantropometría. Grupo Español de Cineantropometría; Federación Española de Medicina del Deporte (FEMEDE).',
     },
     {
       referencia:
@@ -244,19 +244,19 @@ export default {
     },
     {
       referencia:
-        'Kawamura, Y. (2005). Fashion-ology: an introduction to fashion studies. Berg Publishers. ISBN 978-1-85973-814-6.',
+        'Kawamura, Y. (2005). Fashion-ology: an introduction to fashion studies. Berg Publishers.',
     },
     {
       referencia:
-        'Lorenzo, M. R. (2017). Patronaje industrial en textil y piel. Videocinco Editorial. ISBN 978-84-16852-03-1.',
+        'Lorenzo, M. R. (2017). Patronaje industrial en textil y piel. Videocinco Editorial. ',
     },
     {
       referencia:
-        'Nakamichi, T. (2012). Pattern magic, vol. 1: la magia del patronaje. Editorial Gustavo Gili. ISBN 978-84-252-2438-6.',
+        'Nakamichi, T. (2012). Pattern magic, vol. 1: la magia del patronaje. Editorial Gustavo Gili.',
     },
     {
       referencia:
-        'Norton, K., y Eston, R. (Eds.). (2019). Kinanthropometry and exercise physiology (4.ª ed.). Routledge. ISBN 978-1-138-23052-1.',
+        'Norton, K., y Eston, R. (Eds.). (2019). Kinanthropometry and exercise physiology (4.ª ed.). Routledge.',
     },
   ],
   creditos: [
@@ -266,7 +266,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -315,12 +315,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: 'Erika Daniela Manrique Rueda',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Sandra Liliana Cristancho Cruz',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
