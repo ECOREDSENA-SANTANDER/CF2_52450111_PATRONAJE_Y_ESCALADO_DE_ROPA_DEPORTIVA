@@ -159,27 +159,27 @@
               th #[b Escalado diferencial]
           tbody
             tr
-              td.fw-bold Tipo de incremento.
+              td Tipo de incremento.
               td Uniforme y constante.
               td Variable según zonas.
               td Específico y localizado.
             tr
-              td.fw-bold Complejidad del patrón.
+              td Complejidad del patrón.
               td Baja.
               td Media - alta.
               td Alta.
             tr
-              td.fw-bold Aplicación más frecuente.
+              td Aplicación más frecuente.
               td Prendas básicas, simples.
               td Vestidos, chaquetas, prendas de ajuste anatómico.
               td Ropa deportiva o especializada.
             tr
-              td.fw-bold Precisión anatómica.
+              td Precisión anatómica.
               td Estándar.
               td Alta.
               td Muy alta.
             tr
-              td.fw-bold Adaptabilidad ergonómica.
+              td Adaptabilidad ergonómica.
               td Limitada.
               td Moderada - alta.
               td Alta.
@@ -222,28 +222,28 @@
                   th #[b Talla 36 (base superior)]
               tbody
                 tr
-                  td.fw-bold Contorno de cintura
+                  td Contorno de cintura
                   td 68 cm
                   td 72 cm
                   td 76 cm
                   td 80 cm
                   td 84 cm
                 tr
-                  td.fw-bold Contorno de cadera
+                  td Contorno de cadera
                   td 90 cm
                   td 94 cm
                   td 98 cm
                   td 102 cm
                   td 106 cm
                 tr
-                  td.fw-bold Altura de tiro
+                  td Altura de tiro
                   td 26 cm
                   td 26.5 cm
                   td 27 cm
                   td 27.5 cm
                   td 28 cm
                 tr
-                  td.fw-bold Largo de pierna
+                  td Largo de pierna
                   td 100 cm
                   td 101 cm
                   td 102 cm
@@ -285,14 +285,16 @@
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Escalado monobásico 
 
+      
       .row.justify-content-center.mb-5(data-aos='fade-right')
-        .col-sm-12.col-lg-4.mb-cus
-            p.mb-0 El escalado monobásico toma como referencia una única talla base ubicada generalmente en el centro de la serie, a partir de la cual se calculan los desplazamientos hacia las tallas superiores e inferiores mediante incrementos definidos en el cuadro de tallas. En el patronaje deportivo infantil para el rango de 6 a 12 años, este método resulta especialmente pertinente dado que las variaciones morfológicas entre tallas consecutivas son relativamente uniformes, lo que permite aplicar incrementos constantes con alto grado de proporcionalidad sobre el cuerpo en crecimiento. 
+        .col-sm-12.col-lg-4.mb-4.mb-lg-0.d-flex.align-items-center
+          p.mb-0 El escalado monobásico toma como referencia una única talla base ubicada generalmente en el centro de la serie, a partir de la cual se calculan los desplazamientos hacia las tallas superiores e inferiores mediante incrementos definidos en el cuadro de tallas. En el patronaje deportivo infantil para el rango de 6 a 12 años, este método resulta especialmente pertinente dado que las variaciones morfológicas entre tallas consecutivas son relativamente uniformes, lo que permite aplicar incrementos constantes con alto grado de proporcionalidad sobre el cuerpo en crecimiento. 
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/16.png', alt='')
+          img.w-100.h-100(src='@/assets/curso/temas/t2/16.png', alt='', style='object-fit: cover; border-radius: 12px;')
         .col-sm-12.col-lg-4
-            .bg-color-5.p-3
-              p.mb-0 El procedimiento consiste en identificar los puntos de control del patrón base y asignar a cada uno un valor de desplazamiento positivo hacia tallas mayores o negativo hacia tallas menores, según los incrementos definidos en el cuadro de tallas infantil. La siguiente tabla presenta un ejemplo de incrementos monobásicos aplicados a una camiseta deportiva infantil desde la talla base correspondiente a 8 años: 
+          .bg-color-5.p-4.h-100.d-flex.align-items-center
+            p.mb-0 El procedimiento consiste en identificar los puntos de control del patrón base y asignar a cada uno un valor de desplazamiento positivo hacia tallas mayores o negativo hacia tallas menores, según los incrementos definidos en el cuadro de tallas infantil. La siguiente tabla presenta un ejemplo de incrementos monobásicos aplicados a una camiseta deportiva infantil desde la talla base correspondiente a 8 años: 
+
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-10
@@ -310,35 +312,35 @@
                   th #[b Talla 12 años]
               tbody
                 tr
-                  td.fw-bold Contorno de pecho
+                  td Contorno de pecho
                   td 4 cm
                   td 60 cm
                   td 64 cm
                   td 68 cm
                   td 72 cm
                 tr
-                  td.fw-bold Contorno de cintura
+                  td Contorno de cintura
                   td 3 cm
                   td 55 cm
                   td 58 cm
                   td 61 cm
                   td 64 cm
                 tr
-                  td.fw-bold Contorno de cadera
+                  td Contorno de cadera
                   td 4 cm
                   td 62 cm
                   td 66 cm
                   td 70 cm
                   td 74 cm
                 tr
-                  td.fw-bold Ancho de espalda
+                  td Ancho de espalda
                   td 0.5 cm
                   td 27 cm
                   td 27.5 cm
                   td 28 cm
                   td 28.5 cm
                 tr
-                  td.fw-bold Largo de talle
+                  td Largo de talle
                   td 0.5 cm
                   td 27 cm
                   td 27.5 cm
@@ -385,23 +387,23 @@
                   th #[b Desplazamiento eje Y (vertical)]
               tbody
                 tr
-                  td.fw-bold Vértice de tiro delantero
+                  td Vértice de tiro delantero
                   td + 0.5 cm por talla
                   td + 0.5 cm por talla
                 tr
-                  td.fw-bold Lateral de cadera
+                  td Lateral de cadera
                   td + 1 cm por talla
                   td 0 cm
                 tr
-                  td.fw-bold Cintura lateral
+                  td Cintura lateral
                   td + 0.5 cm por talla
                   td + 0.25 cm por talla
                 tr
-                  td.fw-bold Bajo de pierna lateral
+                  td Bajo de pierna lateral
                   td + 0.25 cm por talla
                   td + 0.5 cm por talla
                 tr
-                  td.fw-bold Entrepierna
+                  td Entrepierna
                   td + 0.25 cm por talla
                   td + 0.5 cm por talla
 
@@ -462,19 +464,19 @@
                   th #[b Uso recomendado]
               tbody
                 tr
-                  td.fw-bold Tipo de línea.
+                  td Tipo de línea.
                   td Continua, discontinua, punteada.
                   td Diferenciación de tallas en trazado manual.
                 tr
-                  td.fw-bold Color de línea.
+                  td Color de línea.
                   td Un color por talla.
                   td Trazado manual y digital.
                 tr
-                  td.fw-bold Grosor de línea.
+                  td Grosor de línea.
                   td Línea fina, media o gruesa.
                   td Refuerzo visual en combinación con color.
                 tr
-                  td.fw-bold Símbolo en el punto de control.
+                  td Símbolo en el punto de control.
                   td Círculo, cuadrado, triángulo.
                   td Identificación de puntos clave por talla.
 
@@ -489,10 +491,10 @@
 
       p.mb-5(data-aos='fade-right') La marcación comprende la inscripción en cada pieza separada de la información técnica indispensable para su correcta utilización en producción. Los datos mínimos que debe contener cada patrón marcado son los siguientes:   
 
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        p.mb-0  #[b Tabla 17.]  Marcación de patrones
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8
-          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            p.mb-0  #[b Tabla 17.]  Marcación de patrones
           .tabla-a.color-acento-contenido.mb-0(data-aos='fade-right')
             table.tabla-a-height
               thead
@@ -501,28 +503,28 @@
                   th #[b Descripción]
               tbody
                 tr
-                  td.fw-bold Nombre de la pieza.
+                  td Nombre de la pieza.
                   td Denominación técnica: delantero, trasero, manga, etc.
                 tr
-                  td.fw-bold Número o código de talla.
+                  td Número o código de talla.
                   td Según el sistema de tallaje adoptado.
                 tr
-                  td.fw-bold Dirección del hilo.
+                  td Dirección del hilo.
                   td Indicada mediante flecha paralela al hilo de la tela.
                 tr
-                  td.fw-bold Número de piezas a cortar.
+                  td Número de piezas a cortar.
                   td Cantidad de veces que se corta la pieza.
                 tr
-                  td.fw-bold Indicación de doblez.
+                  td Indicación de doblez.
                   td Cuando la pieza se corta sobre el doblez del tejido.
                 tr
-                  td.fw-bold Piquetes y puntos de control.
+                  td Piquetes y puntos de control.
                   td Marcas de ensamble y referencias de costura.
                 tr
-                  td.fw-bold Márgenes de costura.
+                  td Márgenes de costura.
                   td Cuando el patrón los incluye incorporados.
                 tr
-                  td.fw-bold Referencia de la prenda.
+                  td Referencia de la prenda.
                   td Código o nombre del diseño al que pertenece.
         .col-sm-12.col-lg-4.d-none.d-lg-block.container-full
           img.img-full.br-1(src='@/assets/curso/temas/t2/21.png', alt='')
